@@ -1,0 +1,8 @@
+# Core (beat / drop detection)
+numpy>=1.26
+librosa>=0.10
+soundfile>=0.12
+# Lyrics (optional, only needed for --lyrics). Big downloads; a GPU helps but isn't required.
+# demucs separates vocals first so Whisper isn't confused by the beat.
+demucs>=4.0
+openai-whisper>=20240930

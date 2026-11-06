@@ -1,0 +1,26 @@
+{
+  "name": "reel-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beat-synced Instagram music reels with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "analyze": "python3 analysis/analyze.py",
+    "reel": "node scripts/make-reel.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/fonts": "^4.0.541",
+    "@remotion/media-utils": "4.0.541",
+    "@remotion/transitions": "4.0.541",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

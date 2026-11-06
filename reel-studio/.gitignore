@@ -1,0 +1,10 @@
+node_modules/
+out/
+.venv/
+analysis/separated/
+public/clips/*
+!public/clips/.gitkeep
+public/songs/*
+!public/songs/.gitkeep
+!public/songs/demo.json
+!public/songs/demo-beat.mp3
